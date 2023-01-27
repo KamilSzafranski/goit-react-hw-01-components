@@ -1,0 +1,35 @@
+.friendList {
+  padding: 10px 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+}
+
+.item {
+  padding: 5px 0;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.status {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: lightcoral;
+}
+
+.isOnline {
+  background-color: greenyellow;
+}
+
+.awatar {
+  height: 75px;
+  width: 75px;
+  border-radius: 5px;
+  background-color: rgb(209, 225, 243);
+}
