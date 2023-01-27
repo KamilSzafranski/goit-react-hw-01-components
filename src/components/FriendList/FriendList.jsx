@@ -26,3 +26,12 @@ export const FriendList = ({ friends }) => {
     </ul>
   );
 };
+
+FriendList.PropTypes = {
+  friends: PropTypes.shape({
+    avatar: PropTypes.string,
+    name: PropTypes.string,
+    isOnline: PropTypes.bool,
+    id: PropTypes.number,
+  }).isRequired,
+};
